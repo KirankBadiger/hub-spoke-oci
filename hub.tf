@@ -75,7 +75,7 @@
       
         source_details {
           source_type             = "image"
-          source_id               = data.oci_core_images.InstanceImageOCID.images[0].id
+          source_id               = "ocid1.image.oc1.iad.aaaaaaaazswbv4b7v62dcrwxvnur3gh3actc3rcgdb2xgopgwxki6axij6jq"
           boot_volume_size_in_gbs = "50"
         }
       
